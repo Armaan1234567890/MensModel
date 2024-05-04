@@ -183,5 +183,23 @@ body {
         object-fit: cover;
         border-radius: 4px;
     }
+    .arrow {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        background-color: orangered;
+        color: #fff;
+        border-radius: 50%;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .arrow i {
+        font-size: 20px;
+        font-weight: 100;
+    }
 
 }
